@@ -1,0 +1,19 @@
+<!doctype html>
+	<head>
+        <link rel="stylesheet" href="style.css">
+		<title>JavaScript QR Code Generator</title>
+	</head>
+	<body>
+		<h3>QR Code Generator</h3>
+        <div>
+            <button class="qr-btn" onclick="generateQRCode()">Create QR Code</button>
+        </div>
+        <br/>
+        <p id="qr-result">This is default QR code:</p>
+        <canvas id="qr-code"></canvas>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+		<script src="app.js"></script>
+        
+	</body>
+</html> 

@@ -1,0 +1,12 @@
+body {
+    padding:20px;
+}
+.qr-btn {
+    background-color:#fc8f12;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: blue;
+    padding:8px;
+    color:rgb(3, 3, 3);
+    cursor:pointer;
+}
